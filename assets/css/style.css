@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+.headline {
+  color: #fafafa;
+  text-align: center;
+  font-family: fantasy;
+  /* background-color: #4d0662; */
+  padding: 10px 0;
+}
+
+.headline p {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #f8f8f8;
+}
+
+.headline span {
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+}
+.bar {
+  background-color: #f8f8f8;
+  width: 100%;
+  /* margin: 10px 0 5px; */
+  height: 5vh;
+  color: #4d0662;
+  text-align: center;
+}
+
+.selected {
+  background-color: bisque;
+}
+
+.square {
+  background-color: #4d0662;
+  width: 30%;
+  padding-bottom: 20%;
+  float: left;
+  margin: 1.5%;
+  border-radius: 10px;
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+}
